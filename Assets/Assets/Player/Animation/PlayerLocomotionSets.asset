@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65bf00673eb4ebcb2d467d1fa441df9, type: 3}
+  m_Name: PlayerLocomotionSets
+  m_EditorClassIdentifier: 
+  Idle_Left_Anim:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 77702222a3918914eba357e498d9a644, type: 3}
+    _NormalizedStartTime: NaN
+  Idle_Right_Anim:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 98628de484e3530479b43e5f9ce9a215, type: 3}
+    _NormalizedStartTime: NaN
+  MoveBufferStopSpeed: 4
+  Move_DeltaArc_Parameter: {fileID: 11400000, guid: c21416605ab92cf43af9b20bc8873709,
+    type: 2}
+  Move_Speed_Parameter: {fileID: 11400000, guid: ade19a3a28476704b9e842d8994d54cd,
+    type: 2}
+  Move_Loop_Anim: {fileID: 11400000, guid: ad839c943c5edc746aa6994aa54b9ece, type: 2}
+  Move_End_Left_Anim: {fileID: 11400000, guid: c328f3b72f7700542885eed27668b6e4, type: 2}
+  Move_End_Left_Buffer_Anim: {fileID: 11400000, guid: bee587f2c841bfc42b3e0f0d6b2246b0,
+    type: 2}
+  Move_End_Right_Anim: {fileID: 11400000, guid: b46a6042889ea0447a018088f008629c,
+    type: 2}
+  Move_End_Right_Buffer_Anim: {fileID: 11400000, guid: b858b05a691bff043a43c349e1e976ff,
+    type: 2}
+  DashActionTimeLine: {fileID: 0}
+  InAir_L: {fileID: 11400000, guid: 39d2f2d71c89ac849be95cfdce23f61a, type: 2}
+  InAir_R: {fileID: 11400000, guid: a09eacadcf4f7ff47b60bda1cce6e3a9, type: 2}
+  references:
+    version: 2
+    RefIds: []

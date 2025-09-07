@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ad17b9a64d44d49b40a3a2d2286f28, type: 3}
+  m_Name: FrameworkConfig
+  m_EditorClassIdentifier: 
+  LogicUpdateCountPerScecond: 50
+  ConfigsViewSort:
+  - Value: FrameworkConfig
+  - Value: LogConfigs
+  - Value: Asset
+  - Value: AudioConfig
+  - Value: DataBase
+  - Value: DebugConfig
+  - Value: PoolConfig
+  - Value: Procedure
+  - Value: ResourcesConfigs
+  - Value: UIConfig
+  ManagersUpdateSort:
+  - Value: ilsFramework.Core.MonoManager
+  - Value: ilsFramework.Core.AssetManager
+  - Value: ilsFramework.Core.ConfigManager
+  - Value: ilsFramework.Core.ProcedureManager
+  - Value: ilsFramework.Core.UIManager
+  - Value: ilsFramework.Core.TimerManager
+  - Value: ilsFramework.Core.GlobalEventCenter
+  - Value: ilsFramework.Core.DebugManager
+  - Value: ilsFramework.Core.PoolManager
+  - Value: ilsFramework.Core.ManagerSingleton`1
+  - Value: ilsFramework.Core.LoggerManager
+  - Value: ilsFramework.Core.AudioManager
+  - Value: ilsFramework.Core.SceneHandler
+  - Value: InputManager

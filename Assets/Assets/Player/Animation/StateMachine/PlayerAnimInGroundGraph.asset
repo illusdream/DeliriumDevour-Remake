@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3095185472874054602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7073b1172ed34fc08eb69e6ecb0d535a, type: 3}
+  m_Name: Sub AFSM Node
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 0, y: 535.41986}
+  folded: 0
+  ports:
+    keys:
+    - exitdefaultExit
+    - entry0
+    values:
+    - _fieldName: exitdefaultExit
+      _node: {fileID: -3095185472874054602}
+      _typeQualifiedName: ilsActionEditor.AFSMStateTranslation, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: entry0
+        node: {fileID: -2705354937613017429}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 1
+      _dynamic: 1
+    - _fieldName: entry0
+      _node: {fileID: -3095185472874054602}
+      _typeQualifiedName: ilsActionEditor.AFSMStateTranslation, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exitToMove
+        node: {fileID: -2705354937613017429}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 1
+      _dynamic: 1
+  _name: 
+  entries:
+  - rid: 5320923958253453324
+  MaxiumEntriesIndex: 1
+  exits: []
+  MaxiumExitsIndex: 0
+  fieldEntryTranslations: []
+  fieldExitTranslations:
+  - rid: 5320923958253453322
+  ShowTranslations: 0
+  subFSMGraph: {fileID: 11400000, guid: 14654bf2e0bcf1249bbdae2ce66c9989, type: 2}
+  defaultExit:
+    rid: 5320923958253453322
+  references:
+    version: 2
+    RefIds:
+    - rid: 5320923958253453322
+      type: {class: SubAFSMNode/SubGraphDefaultTranslation, ns: ilsActionEditor, asm: Assembly-CSharp}
+      data:
+        _node: {fileID: -3095185472874054602}
+        _portName: defaultExit
+        IO: 1
+        _name: defaultExit
+        ExitKey: Exit
+        WillExit: 0
+    - rid: 5320923958253453324
+      type: {class: BaseEntryTranslation, ns: ilsActionEditor, asm: Assembly-CSharp}
+      data:
+        _node: {fileID: -3095185472874054602}
+        _portName: 0
+        IO: 0
+        _name: 0
+--- !u!114 &-2705354937613017429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c5c921e5fc4e61a125a5483ff8a3b2, type: 3}
+  m_Name: Idle Anim State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 0.5410652, y: 311.5616}
+  folded: 0
+  ports:
+    keys:
+    - exitToMove
+    - entry0
+    values:
+    - _fieldName: exitToMove
+      _node: {fileID: -2705354937613017429}
+      _typeQualifiedName: ilsActionEditor.AFSMStateTranslation, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: entry0
+        node: {fileID: -3095185472874054602}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 1
+      _dynamic: 1
+    - _fieldName: entry0
+      _node: {fileID: -2705354937613017429}
+      _typeQualifiedName: ilsActionEditor.AFSMStateTranslation, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: exitdefaultExit
+        node: {fileID: -3095185472874054602}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 1
+      _dynamic: 1
+  _name: 
+  entries:
+  - rid: 5320923958253453323
+  MaxiumEntriesIndex: 1
+  exits: []
+  MaxiumExitsIndex: 0
+  fieldEntryTranslations: []
+  fieldExitTranslations:
+  - rid: 5320923958253453321
+  ShowTranslations: 0
+  showOuterComponent: 0
+  MoveStatModel: {fileID: 0}
+  ActionStatModel: {fileID: 0}
+  playerTransform: {fileID: 0}
+  animationHandler: {fileID: 0}
+  playerInputHandler: {fileID: 0}
+  playerController: {fileID: 0}
+  onGroundSensor: {fileID: 0}
+  TargetLayer: {fileID: 11400000, guid: b9775eb28be9261418549ab906b8b830, type: 2}
+  ToMove:
+    rid: 5320923958253453321
+  references:
+    version: 2
+    RefIds:
+    - rid: 5320923958253453321
+      type: {class: BaseFuncTranslation, ns: ilsActionEditor, asm: Assembly-CSharp}
+      data:
+        _node: {fileID: -2705354937613017429}
+        _portName: ToMove
+        IO: 1
+        _name: ToMove
+    - rid: 5320923958253453323
+      type: {class: BaseEntryTranslation, ns: ilsActionEditor, asm: Assembly-CSharp}
+      data:
+        _node: {fileID: -2705354937613017429}
+        _portName: 0
+        IO: 0
+        _name: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e430b289322f4949a53995466eea24f5, type: 3}
+  m_Name: PlayerAnimInGroundGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2705354937613017429}
+  - {fileID: -3095185472874054602}
+  CopyFrom: {fileID: 0}
+  _entryState: {fileID: -2705354937613017429}
+  GlobalStates: []
+  _AFSMTranslationMode: 0

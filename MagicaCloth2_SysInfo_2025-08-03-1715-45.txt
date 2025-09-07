@@ -1,0 +1,463 @@
+========== Time Manager ==========
+SimulationFrequency:90
+MaxSimulationCountPerFrame:3
+GlobalTimeScale:1
+SimulationDeltaTime:0.01111111
+SimulationPower:float4(1f, 1f, 1f, 1f)
+
+========== Team Manager ==========
+Team Manager. Team:5, Mapping:0, Monitoring:0
+  -teamDataArray:ExNativeArray Length:32 Count:5 IsValid:True
+  -teamWindArray:ExNativeArray Length:32 Count:5 IsValid:True
+  -mappingDataArray:ExNativeArray Length:32 Count:0 IsValid:True
+  -parameterArray:ExNativeArray Length:32 Count:5 IsValid:True
+  -centerDataArray:ExNativeArray Length:32 Count:5 IsValid:True
+ID:1 [FrontHairEffect] state:0x1807B, Flag:0x3, Particle:15, Collider:1 Proxy:ProxyBoneMesh, Mapping:0
+  -centerTransformIndex 15
+  -initScale float3(1f, 1f, 1f)
+  -scaleRatio 1
+  -animationPoseRatio 0
+  -blendWeight 1
+  Sync:, SyncParentCount:0
+  -ProxyTransformChunk [startIndex=0, dataLength=16]
+  -ProxyCommonChunk [startIndex=0, dataLength=15]
+  -ProxyMeshChunk [startIndex=0, dataLength=15]
+  -ProxyBoneChunk [startIndex=0, dataLength=15]
+  -ProxySkinBoneChunk [startIndex=0, dataLength=15]
+  -ProxyTriangleChunk [startIndex=0, dataLength=0]
+  -ProxyEdgeChunk [startIndex=0, dataLength=12]
+  -BaseLineChunk [startIndex=0, dataLength=3]
+  -BaseLineDataChunk [startIndex=0, dataLength=15]
+  -ParticleChunk [startIndex=0, dataLength=15]
+  -ColliderChunk [startIndex=0, dataLength=1]
+  -ColliderTrnasformChunk [startIndex=16, dataLength=1]
+  -colliderCount 1
+  *Mapping Count 0
+  +DistanceStartChunk [startIndex=0, dataLength=15]
+  +DistanceDataChunk [startIndex=0, dataLength=24]
+  +BendingPairChunk [startIndex=0, dataLength=0]
+  +selfPointChunk [startIndex=0, dataLength=0]
+  +selfEdgeChunk [startIndex=0, dataLength=0]
+  +selfTriangleChunk [startIndex=0, dataLength=0]
+  #Wind ZoneCount:0
+    [Move] windId:0, time:-10000, main:0, direction:float3(0f, 0f, 0f)
+ID:2 [PiaoDai] state:0x1807B, Flag:0x3, Particle:7, Collider:7 Proxy:ProxyBoneMesh, Mapping:0
+  -centerTransformIndex 24
+  -initScale float3(1f, 1f, 1f)
+  -scaleRatio 1
+  -animationPoseRatio 0
+  -blendWeight 1
+  Sync:, SyncParentCount:0
+  -ProxyTransformChunk [startIndex=17, dataLength=8]
+  -ProxyCommonChunk [startIndex=15, dataLength=7]
+  -ProxyMeshChunk [startIndex=15, dataLength=7]
+  -ProxyBoneChunk [startIndex=15, dataLength=7]
+  -ProxySkinBoneChunk [startIndex=15, dataLength=7]
+  -ProxyTriangleChunk [startIndex=0, dataLength=1]
+  -ProxyEdgeChunk [startIndex=12, dataLength=7]
+  -BaseLineChunk [startIndex=3, dataLength=1]
+  -BaseLineDataChunk [startIndex=15, dataLength=7]
+  -ParticleChunk [startIndex=15, dataLength=7]
+  -ColliderChunk [startIndex=1, dataLength=7]
+  -ColliderTrnasformChunk [startIndex=25, dataLength=7]
+  -colliderCount 7
+  *Mapping Count 0
+  +DistanceStartChunk [startIndex=15, dataLength=7]
+  +DistanceDataChunk [startIndex=24, dataLength=14]
+  +BendingPairChunk [startIndex=0, dataLength=0]
+  +selfPointChunk [startIndex=0, dataLength=0]
+  +selfEdgeChunk [startIndex=0, dataLength=0]
+  +selfTriangleChunk [startIndex=0, dataLength=0]
+  #Wind ZoneCount:0
+    [Move] windId:0, time:-10000, main:0, direction:float3(0f, 0f, 0f)
+ID:3 [ShortHair] state:0x1807B, Flag:0x3, Particle:39, Collider:1 Proxy:ProxyBoneMesh, Mapping:0
+  -centerTransformIndex 71
+  -initScale float3(1f, 1f, 1f)
+  -scaleRatio 1
+  -animationPoseRatio 0
+  -blendWeight 1
+  Sync:, SyncParentCount:0
+  -ProxyTransformChunk [startIndex=32, dataLength=40]
+  -ProxyCommonChunk [startIndex=30, dataLength=39]
+  -ProxyMeshChunk [startIndex=30, dataLength=39]
+  -ProxyBoneChunk [startIndex=30, dataLength=39]
+  -ProxySkinBoneChunk [startIndex=30, dataLength=39]
+  -ProxyTriangleChunk [startIndex=0, dataLength=0]
+  -ProxyEdgeChunk [startIndex=24, dataLength=31]
+  -BaseLineChunk [startIndex=6, dataLength=8]
+  -BaseLineDataChunk [startIndex=30, dataLength=39]
+  -ParticleChunk [startIndex=30, dataLength=39]
+  -ColliderChunk [startIndex=8, dataLength=1]
+  -ColliderTrnasformChunk [startIndex=72, dataLength=1]
+  -colliderCount 1
+  *Mapping Count 0
+  +DistanceStartChunk [startIndex=30, dataLength=39]
+  +DistanceDataChunk [startIndex=48, dataLength=62]
+  +BendingPairChunk [startIndex=0, dataLength=0]
+  +selfPointChunk [startIndex=0, dataLength=0]
+  +selfEdgeChunk [startIndex=0, dataLength=0]
+  +selfTriangleChunk [startIndex=0, dataLength=0]
+  #Wind ZoneCount:0
+    [Move] windId:0, time:-10000, main:0, direction:float3(0f, 0f, 0f)
+ID:4 [Skirt1] state:0x1807B, Flag:0x3, Particle:66, Collider:7 Proxy:ProxyBoneMesh, Mapping:0
+  -centerTransformIndex 139
+  -initScale float3(1f, 1f, 1f)
+  -scaleRatio 1
+  -animationPoseRatio 0
+  -blendWeight 1
+  Sync:, SyncParentCount:0
+  -ProxyTransformChunk [startIndex=73, dataLength=67]
+  -ProxyCommonChunk [startIndex=69, dataLength=66]
+  -ProxyMeshChunk [startIndex=69, dataLength=66]
+  -ProxyBoneChunk [startIndex=69, dataLength=66]
+  -ProxySkinBoneChunk [startIndex=69, dataLength=66]
+  -ProxyTriangleChunk [startIndex=1, dataLength=244]
+  -ProxyEdgeChunk [startIndex=55, dataLength=298]
+  -BaseLineChunk [startIndex=14, dataLength=5]
+  -BaseLineDataChunk [startIndex=69, dataLength=66]
+  -ParticleChunk [startIndex=69, dataLength=66]
+  -ColliderChunk [startIndex=9, dataLength=7]
+  -ColliderTrnasformChunk [startIndex=140, dataLength=7]
+  -colliderCount 7
+  *Mapping Count 0
+  +DistanceStartChunk [startIndex=69, dataLength=66]
+  +DistanceDataChunk [startIndex=110, dataLength=666]
+  +BendingPairChunk [startIndex=0, dataLength=1001]
+  +selfPointChunk [startIndex=0, dataLength=0]
+  +selfEdgeChunk [startIndex=0, dataLength=0]
+  +selfTriangleChunk [startIndex=0, dataLength=0]
+  #Wind ZoneCount:0
+    [Move] windId:0, time:-10000, main:0, direction:float3(0f, 0f, 0f)
+
+========== VMesh Manager ==========
+VirtualMesh Manager.
+  -ProxyVertexCount:135
+  -ProxyEdgeCount:353
+  -ProxyTriangleCount:245
+  -ProxyBaseLineCount:19
+  -ProxyLocalPositionCount:135
+  [ProxyMesh]
+    -teamIds:ExNativeArray Length:138 Count:135 IsValid:True
+    -attributes:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexToTriangles:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexBindPosePositions:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexBindPoseRotations:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexDepths:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexRootIndices:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexLocalPositions:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexLocalRotations:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexParentIndices:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexChildIndexArray:ExNativeArray Length:138 Count:135 IsValid:True
+    -vertexChildDataArray:ExNativeArray Length:116 Count:116 IsValid:True
+    -normalAdjustmentRotations:ExNativeArray Length:138 Count:135 IsValid:True
+    -uv:ExNativeArray Length:138 Count:135 IsValid:True
+    -triangleTeamIdArray:ExNativeArray Length:245 Count:245 IsValid:True
+    -triangles:ExNativeArray Length:245 Count:245 IsValid:True
+    -triangleNormals:ExNativeArray Length:245 Count:245 IsValid:True
+    -triangleTangents:ExNativeArray Length:245 Count:245 IsValid:True
+    -edgeTeamIdArray:ExNativeArray Length:353 Count:353 IsValid:True
+    -edges:ExNativeArray Length:353 Count:353 IsValid:True
+    -edgeFlags:ExNativeArray Length:353 Count:353 IsValid:True
+    -baseLineFlags:ExNativeArray Length:28 Count:19 IsValid:True
+    -baseLineTeamIds:ExNativeArray Length:28 Count:19 IsValid:True
+    -baseLineStartDataIndices:ExNativeArray Length:28 Count:19 IsValid:True
+    -baseLineDataCounts:ExNativeArray Length:28 Count:19 IsValid:True
+    -baseLineData:ExNativeArray Length:138 Count:135 IsValid:True
+  [Mesh Common]
+    -localPositions:ExNativeArray Length:138 Count:135 IsValid:True
+    -localNormals:ExNativeArray Length:138 Count:135 IsValid:True
+    -localTangents:ExNativeArray Length:138 Count:135 IsValid:True
+    -boneWeights:ExNativeArray Length:138 Count:135 IsValid:True
+    -skinBoneTransformIndices:ExNativeArray Length:138 Count:135 IsValid:True
+    -skinBoneBindPoses:ExNativeArray Length:138 Count:135 IsValid:True
+  [Mesh Other]
+    -vertexToTransformRotations:ExNativeArray Length:138 Count:135 IsValid:True
+    -positions:ExNativeArray Length:138 Count:135 IsValid:True
+    -rotations:ExNativeArray Length:138 Count:135 IsValid:True
+  [Mapping]
+    -MappingVertexCount:0
+    -mappingReferenceIndices:ExNativeArray Length:0 Count:0 IsValid:True
+    -mappingAttributes:ExNativeArray Length:0 Count:0 IsValid:True
+    -mappingLocalPositins:ExNativeArray Length:0 Count:0 IsValid:True
+    -mappingLocalNormals:ExNativeArray Length:0 Count:0 IsValid:True
+    -mappingBoneWeights:ExNativeArray Length:0 Count:0 IsValid:True
+    -mappingPositions:ExNativeArray Length:0 Count:0 IsValid:True
+    -mappingNormals:ExNativeArray Length:0 Count:0 IsValid:True
+
+========== Transform Manager ==========
+Transform Manager. Length:147
+  -flagArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -initLocalPositionArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -initLocalRotationArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -positionArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -rotationArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -scaleArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -localPositionArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -localRotationArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -localToWorldMatirxArray:ExNativeArray Length:256 Count:147 IsValid:True
+  -teamIdArray:ExNativeArray Length:256 Count:147 IsValid:True
+  [0] team:1 (ERrW) hair_L_c_01_jnt
+  [1] team:1 (ERrw) hair_L_c_02_jnt
+  [2] team:1 (ERrw) hair_L_c_03_jnt
+  [3] team:1 (ERrw) hair_L_c_04_jnt
+  [4] team:1 (ERrw) hair_L_c_04_jnt_end
+  [5] team:1 (ERrW) hair_L_b_01_jnt
+  [6] team:1 (ERrw) hair_L_b_02_jnt
+  [7] team:1 (ERrw) hair_L_b_03_jnt
+  [8] team:1 (ERrw) hair_L_b_04_jnt
+  [9] team:1 (ERrw) hair_L_b_04_jnt_end
+  [10] team:1 (ERrW) hair_L_a_01_jnt
+  [11] team:1 (ERrw) hair_L_a_02_jnt
+  [12] team:1 (ERrw) hair_L_a_03_jnt
+  [13] team:1 (ERrw) hair_L_a_04_jnt
+  [14] team:1 (ERrw) hair_L_a_04_jnt_end
+  [15] team:1 (Er) FrontHairEffect
+  [16] team:1 (Er) Magica Capsule Collider (Neck_M)
+  [17] team:2 (ERrW) piaodai_hou_0_skin_jnt
+  [18] team:2 (ERrw) piaodai_hou_1_skin_jnt
+  [19] team:2 (ERrw) piaodai_hou_2_skin_jnt
+  [20] team:2 (ERrw) piaodai_hou_3_skin_jnt
+  [21] team:2 (ERrw) piaodai_hou_4_skin_jnt
+  [22] team:2 (ERrw) piaodai_hou_5_skin_jnt
+  [23] team:2 (ERrw) piaodai_hou_5_skin_jnt_end
+  [24] team:2 (Er) PiaoDai
+  [25] team:2 (Er) Magica Capsule Collider (Root_M)
+  [26] team:2 (Er) Magica Sphere Collider (Spine1_M)
+  [27] team:2 (Er) Magica Sphere Collider (Spine2_M)
+  [28] team:2 (Er) Magica Capsule Collider (HipPart1_R)
+  [29] team:2 (Er) Magica Capsule Collider (Knee_R)
+  [30] team:2 (Er) Magica Capsule Collider (Knee_L)
+  [31] team:2 (Er) Magica Capsule Collider (HipPart1_L)
+  [32] team:3 (ERrW) hair_L_k_01_jnt
+  [33] team:3 (ERrw) hair_L_k_02_jnt
+  [34] team:3 (ERrw) hair_L_k_03_jnt
+  [35] team:3 (ERrw) hair_L_k_03_jnt_end
+  [36] team:3 (ERrW) hair_L_j_01_jnt
+  [37] team:3 (ERrw) hair_L_j_02_jnt
+  [38] team:3 (ERrw) hair_L_j_03_jnt
+  [39] team:3 (ERrw) hair_L_j_04_jnt
+  [40] team:3 (ERrw) hair_L_j_04_jnt_end
+  [41] team:3 (ERrW) hair_L_i_01_jnt
+  [42] team:3 (ERrw) hair_L_i_02_jnt
+  [43] team:3 (ERrw) hair_L_i_03_jnt
+  [44] team:3 (ERrw) hair_L_i_03_jnt_end
+  [45] team:3 (ERrW) hair_L_h_01_jnt
+  [46] team:3 (ERrw) hair_L_h_02_jnt
+  [47] team:3 (ERrw) hair_L_h_03_jnt
+  [48] team:3 (ERrw) hair_L_h_03_jnt_end
+  [49] team:3 (ERrW) hair_L_g_01_jnt
+  [50] team:3 (ERrw) hair_L_g_02_jnt
+  [51] team:3 (ERrw) hair_L_g_03_jnt
+  [52] team:3 (ERrw) hair_L_g_04_jnt
+  [53] team:3 (ERrw) hair_L_g_04_jnt_end
+  [54] team:3 (ERrW) hair_L_f_01_jnt
+  [55] team:3 (ERrw) hair_L_f_02_jnt
+  [56] team:3 (ERrw) hair_L_f_03_jnt
+  [57] team:3 (ERrw) hair_L_f_04_jnt
+  [58] team:3 (ERrw) hair_L_f_04_jnt_end
+  [59] team:3 (ERrW) hair_L_e_01_jnt
+  [60] team:3 (ERrw) hair_L_e_02_jnt
+  [61] team:3 (ERrw) hair_L_e_03_jnt
+  [62] team:3 (ERrw) hair_L_e_04_jnt
+  [63] team:3 (ERrw) hair_L_e_05_jnt
+  [64] team:3 (ERrw) hair_L_e_05_jnt_end
+  [65] team:3 (ERrW) hair_L_d_01_jnt
+  [66] team:3 (ERrw) hair_L_d_02_jnt
+  [67] team:3 (ERrw) hair_L_d_03_jnt
+  [68] team:3 (ERrw) hair_L_d_04_jnt
+  [69] team:3 (ERrw) hair_L_d_05_jnt
+  [70] team:3 (ERrw) hair_L_d_05_jnt_end
+  [71] team:3 (Er) ShortHair
+  [72] team:3 (Er) Magica Capsule Collider (Neck_M)
+  [73] team:4 (ERrW) clothes_pifeng_R_b_0_jnt
+  [74] team:4 (ERrw) clothes_pifeng_R_b_1_jnt
+  [75] team:4 (ERrw) clothes_pifeng_R_b_2_jnt
+  [76] team:4 (ERrw) clothes_pifeng_R_b_3_jnt
+  [77] team:4 (ERrw) clothes_pifeng_R_b_4_jnt
+  [78] team:4 (ERrw) clothes_pifeng_R_b_5_jnt
+  [79] team:4 (ERrw) clothes_pifeng_R_b_6_jnt
+  [80] team:4 (ERrw) clothes_pifeng_R_b_6_jnt_end
+  [81] team:4 (ERrw) C_Coat3.001
+  [82] team:4 (ERrw) C_Coat3.001_end
+  [83] team:4 (ERrw) C_Coat2.001
+  [84] team:4 (ERrw) C_Coat2.001_end
+  [85] team:4 (ERrw) C_Coat1.001
+  [86] team:4 (ERrw) C_Coat1.001_end
+  [87] team:4 (ERrW) clothes_pifeng_R_a_0_jnt
+  [88] team:4 (ERrw) clothes_pifeng_R_a_1_jnt
+  [89] team:4 (ERrw) clothes_pifeng_R_a_2_jnt
+  [90] team:4 (ERrw) clothes_pifeng_R_a_3_jnt
+  [91] team:4 (ERrw) clothes_pifeng_R_a_4_jnt
+  [92] team:4 (ERrw) piaodai_a_1_ctrl_jnt
+  [93] team:4 (ERrw) piaodai_a_2_ctrl_jnt
+  [94] team:4 (ERrw) piaodai_a_3_ctrl_jnt
+  [95] team:4 (ERrw) piaodai_a_4_ctrl_jnt
+  [96] team:4 (ERrw) piaodai_a_5_ctrl_jnt
+  [97] team:4 (ERrw) piaodai_a_5_ctrl_jnt_end
+  [98] team:4 (ERrw) clothes_pifeng_R_a_5_jnt
+  [99] team:4 (ERrw) clothes_pifeng_R_a_6_jnt
+  [100] team:4 (ERrw) clothes_pifeng_R_a_6_jnt_end
+  [101] team:4 (ERrW) clothes_pifeng_M_a_0_jnt
+  [102] team:4 (ERrw) clothes_pifeng_M_a_1_jnt
+  [103] team:4 (ERrw) clothes_pifeng_M_a_2_jnt
+  [104] team:4 (ERrw) clothes_pifeng_M_a_3_jnt
+  [105] team:4 (ERrw) clothes_pifeng_M_a_4_jnt
+  [106] team:4 (ERrw) clothes_pifeng_M_a_5_jnt
+  [107] team:4 (ERrw) clothes_pifeng_M_a_6_jnt
+  [108] team:4 (ERrw) clothes_pifeng_M_a_6_jnt_end
+  [109] team:4 (ERrw) C_Coat3
+  [110] team:4 (ERrw) C_Coat3_end
+  [111] team:4 (ERrw) C_Coat2
+  [112] team:4 (ERrw) C_Coat2_end
+  [113] team:4 (ERrw) C_Coat1
+  [114] team:4 (ERrw) C_Coat1_end
+  [115] team:4 (ERrW) clothes_pifeng_L_b_0_jnt
+  [116] team:4 (ERrw) clothes_pifeng_L_b_1_jnt
+  [117] team:4 (ERrw) clothes_pifeng_L_b_2_jnt
+  [118] team:4 (ERrw) clothes_pifeng_L_b_3_jnt
+  [119] team:4 (ERrw) clothes_pifeng_L_b_4_jnt
+  [120] team:4 (ERrw) clothes_pifeng_L_b_5_jnt
+  [121] team:4 (ERrw) clothes_pifeng_L_b_6_jnt
+  [122] team:4 (ERrw) clothes_pifeng_L_b_6_jnt_end
+  [123] team:4 (ERrW) clothes_pifeng_L_a_0_jnt
+  [124] team:4 (ERrw) clothes_pifeng_L_a_1_jnt
+  [125] team:4 (ERrw) yifu_a_jnt
+  [126] team:4 (ERrw) yifu_b_jnt
+  [127] team:4 (ERrw) yifu_b_jnt_end
+  [128] team:4 (ERrw) clothes_pifeng_L_a_2_jnt
+  [129] team:4 (ERrw) clothes_pifeng_L_a_3_jnt
+  [130] team:4 (ERrw) clothes_pifeng_L_a_4_jnt
+  [131] team:4 (ERrw) clothes_pifeng_L_a_5_jnt
+  [132] team:4 (ERrw) piaodai_b_1_ctrl_jnt
+  [133] team:4 (ERrw) piaodai_b_2_ctrl_jnt
+  [134] team:4 (ERrw) piaodai_b_3_ctrl_jnt
+  [135] team:4 (ERrw) piaodai_b_3_ctrl_jnt1
+  [136] team:4 (ERrw) piaodai_b_3_ctrl_jnt1_end
+  [137] team:4 (ERrw) clothes_pifeng_L_a_6_jnt
+  [138] team:4 (ERrw) clothes_pifeng_L_a_6_jnt_end
+  [139] team:4 (Er) Skirt1
+  [140] team:4 (Er) Magica Sphere Collider (Spine2_M)
+  [141] team:4 (Er) Magica Sphere Collider (Spine1_M)
+  [142] team:4 (Er) Magica Capsule Collider (Root_M)
+  [143] team:4 (Er) Magica Capsule Collider (Knee_L)
+  [144] team:4 (Er) Magica Capsule Collider (HipPart1_L)
+  [145] team:4 (Er) Magica Capsule Collider (Knee_R)
+  [146] team:4 (Er) Magica Capsule Collider (HipPart1_R)
+
+========== Simulation Manager ==========
+Simulation Manager. Particle:135
+  -teamIdArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -nextPosArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -oldPosArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -oldRotArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -basePosArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -baseRotArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -oldPositionArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -oldRotationArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -velocityPosArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -dispPosArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -velocityArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -realVelocityArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -frictionArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -staticFrictionArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -collisionNormalArray:ExNativeArray Length:138 Count:135 IsValid:True
+[DistanceConstraint]
+  -indexArray:ExNativeArray Length:138 Count:135 IsValid:True
+  -dataArray:ExNativeArray Length:776 Count:776 IsValid:True
+  -distanceArray:ExNativeArray Length:776 Count:776 IsValid:True
+[TriangleBendConstraint]
+  -trianglePairArray:ExNativeArray Length:1001 Count:1001 IsValid:True
+  -restAngleOrVolumeArray:ExNativeArray Length:1001 Count:1001 IsValid:True
+  -signOrVolumeArray:ExNativeArray Length:1001 Count:1001 IsValid:True
+  -writeDataArray:ExNativeArray Length:1001 Count:1001 IsValid:True
+  -writeIndexArray:ExNativeArray Length:66 Count:66 IsValid:True
+  -writeBuffer:ExNativeArray Length:4004 Count:4004 IsValid:True
+[AngleConstraint]
+  -lengthBuffer:135
+  -localPosBuffer:135
+  -localRotBuffer:135
+  -rotationBuffer:135
+  -restorationVectorBuffer:135
+[InertiaConstraint]
+  -fixedArray:ExNativeArray Length:28 Count:19 IsValid:True
+[ColliderCollisionConstraint]
+  -tempFrictionArray:0
+  -tempNormalArray:0
+[SelfCollisionConstraint]
+  -primitiveArray:ExNativeArray Length:0 Count:0 IsValid:True
+  -sortAndSweepArray:ExNativeArray Length:0 Count:0 IsValid:True
+  -edgeEdgeContactQueue:0
+  -edgeEdgeContactList:0
+  -pointTriangleContactQueue:0
+  -pointTriangleContactList:0
+  -intersectFlagArray:0
+[Step Buffer]
+  -processingStepParticle:ExProcessingList BufferLength:245 Counter:73
+  -processingStepTriangleBending:ExProcessingList BufferLength:1001 Counter:127
+  -processingStepEdgeCollision:ExProcessingList BufferLength:19 Counter:17
+  -processingStepCollider:ExProcessingList BufferLength:16 Counter:16
+  -processingStepBaseLine:ExProcessingList BufferLength:19 Counter:17
+  -processingStepMotionParticle:ExProcessingList BufferLength:245 Counter:245
+  -processingSelfParticle:ExProcessingList BufferLength:135 Counter:0
+  -processingSelfPointTriangle:ExProcessingList BufferLength:0 Counter:0
+  -processingSelfEdgeEdge:ExProcessingList BufferLength:0 Counter:0
+  -processingSelfTrianglePoint:ExProcessingList BufferLength:0 Counter:0
+[Buffer]
+  -tempFloat3Buffer:135
+  -countArray:135
+  -sumArray:405
+  -stepBasicPositionBuffer:135
+  -stepBasicRotationBuffer:135
+
+
+========== Collider Manager ==========
+Collider Manager. Collider:8
+  -flagArray:ExNativeArray Length:256 Count:16 IsValid:True
+  -centerArray:ExNativeArray Length:256 Count:16 IsValid:True
+  -sizeArray:ExNativeArray Length:256 Count:16 IsValid:True
+  -framePositions:ExNativeArray Length:256 Count:16 IsValid:True
+  -frameRotations:ExNativeArray Length:256 Count:16 IsValid:True
+  -frameScales:ExNativeArray Length:256 Count:16 IsValid:True
+  -oldFramePositions:ExNativeArray Length:256 Count:16 IsValid:True
+  -oldFrameRotations:ExNativeArray Length:256 Count:16 IsValid:True
+  -nowPositions:ExNativeArray Length:256 Count:16 IsValid:True
+  -nowRotations:ExNativeArray Length:256 Count:16 IsValid:True
+  -oldPositions:ExNativeArray Length:256 Count:16 IsValid:True
+  -oldRotations:ExNativeArray Length:256 Count:16 IsValid:True
+[Colliders]
+  [0] tid:1, flag:0x32, type:CapsuleX_Center, size:float3(0.05f, 0.05f, 0.29f), cen:float3(-0.06f, 0f, 0f)
+  [1] tid:2, flag:0x34, type:CapsuleZ_Center, size:float3(0.068f, 0.068f, 0.27f), cen:float3(0.06f, 0f, 0f)
+  [2] tid:2, flag:0x31, type:Sphere, size:float3(0.086f, 0f, 0f), cen:float3(0f, 0f, 0f)
+  [3] tid:2, flag:0x31, type:Sphere, size:float3(0.081f, 0f, 0f), cen:float3(0f, 0f, 0f)
+  [4] tid:2, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.24f), cen:float3(-0.1f, 0f, 0f)
+  [5] tid:2, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.37f), cen:float3(-0.18f, 0f, 0f)
+  [6] tid:2, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.37f), cen:float3(0.18f, 0f, 0f)
+  [7] tid:2, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.24f), cen:float3(0.1f, 0f, 0f)
+  [8] tid:3, flag:0x32, type:CapsuleX_Center, size:float3(0.05f, 0.05f, 0.29f), cen:float3(-0.06f, 0f, 0f)
+  [9] tid:4, flag:0x31, type:Sphere, size:float3(0.081f, 0f, 0f), cen:float3(0f, 0f, 0f)
+  [10] tid:4, flag:0x31, type:Sphere, size:float3(0.086f, 0f, 0f), cen:float3(0f, 0f, 0f)
+  [11] tid:4, flag:0x34, type:CapsuleZ_Center, size:float3(0.068f, 0.068f, 0.27f), cen:float3(0.06f, 0f, 0f)
+  [12] tid:4, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.37f), cen:float3(0.18f, 0f, 0f)
+  [13] tid:4, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.24f), cen:float3(0.1f, 0f, 0f)
+  [14] tid:4, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.37f), cen:float3(-0.18f, 0f, 0f)
+  [15] tid:4, flag:0x32, type:CapsuleX_Center, size:float3(0.042f, 0.042f, 0.24f), cen:float3(-0.1f, 0f, 0f)
+[Collider Names]
+  Magica Capsule Collider (Neck_M)
+  Magica Capsule Collider (Root_M)
+  Magica Sphere Collider (Spine1_M)
+  Magica Sphere Collider (Spine2_M)
+  Magica Capsule Collider (HipPart1_R)
+  Magica Capsule Collider (Knee_R)
+  Magica Capsule Collider (Knee_L)
+  Magica Capsule Collider (HipPart1_L)
+
+========== Wind Manager ==========
+Wind Manager. Count:0
+
+========== Render Manager ==========
+Render Manager. Count(0)
+
+========== PreBuild Manager ==========
+Count:0
+
+
